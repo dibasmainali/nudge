@@ -36,11 +36,11 @@ jobs:
 
       - name: Install Inno Setup
         run: |
-          choco install innosetup --version=7.1.0
+          choco install innosetup --version=6.7.1 -y
 
       - name: Build installer
         run: |
-          & "C:\Program Files\Inno Setup 7\iscc.exe" setup.iss
+          & "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" setup.iss
 
       - name: Create release
         uses: softprops/action-gh-release@v1
