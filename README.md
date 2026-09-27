@@ -149,10 +149,23 @@ History (SQLite) in `%APPDATA%\Nudge\history.db`:
 - Powers statistics: daily totals, 7-day chart, streaks
 - "Clear history" button in Statistics window
 
+  
 ## 📸 Screenshots
-
-Run from source (`python -m app.main --show water`) to see the popup, then open **Settings** and **Statistics** from the tray or home window.
-
+<table>
+  <tr>
+    <td>
+<p align="center">
+  <img width="450" alt="Nudge main view" src="https://github.com/user-attachments/assets/805c6de0-68b8-4704-b8f9-43652e716e23" /><br/>
+  <em>Main reminder popup</em>
+</p></td>
+<td>
+<p align="center">
+  <img width="450" alt="Nudge settings" src="https://github.com/user-attachments/assets/4deb0dd3-3990-473e-a893-b6b8920ec7b2" /><br/>
+  <em>Settings panel</em>
+</p>
+  <td>
+</tr>
+</table>
 ## 🗺️ Roadmap
 
 - [x] Update check via GitHub Releases (opens the download page)
