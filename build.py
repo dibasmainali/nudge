@@ -71,10 +71,10 @@ def run_build():
     result = subprocess.run(cmd, cwd=project_root)
 
     if result.returncode == 0:
-        print("\n✅ Build successful!")
+        print("\n[OK] Build successful!")
         print(f"Executable: {dist_dir / 'Nudge.exe'}")
     else:
-        print("\n❌ Build failed!")
+        print("\n[ERROR] Build failed!")
         sys.exit(result.returncode)
 
 
