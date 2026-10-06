@@ -1,0 +1,67 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg/
+.eggs/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# PyInstaller / installer output
+build/
+build_pyinstaller/
+dist/
+Output/
+warn-*.txt
+xref-*.html
+*.manifest
+*.isproj
+*.iss.~*
+# *.spec  (keep Nudge.spec in repo)
+
+# Local user data (portable mode) - NEVER commit
+settings.json
+settings.json.tmp
+history.db
+update_cache.json
+
+# Editors, IDEs and OS
+.idea/
+.vscode/
+.vs/
+*.suo
+*.user
+*.swp
+.DS_Store
+Thumbs.db
+ehthumbs.db
+ThumbStore
+desktop.ini
+*.lnk
+*.url
+~$*
+*.crdownload
+
+# Crash dumps / runtime
+*.dmp
+*.mdmp
+*.stackdump
+*.tmp
+*.bak
+*.old
+*.orig
+.Python
+
+# Local logs
+*.log
