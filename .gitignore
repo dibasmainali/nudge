@@ -25,5 +25,9 @@ dist/
 Thumbs.db
 desktop.ini
 
+# Dashboard dependencies/build output
+dashboard/node_modules/
+dashboard/dist/
+
 # Local logs
 *.log
